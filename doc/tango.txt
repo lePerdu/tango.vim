@@ -1,0 +1,50 @@
+*tango.txt* Dark colorscheme for Vim/NeoVim
+*tango*
+
+================================================================================
+CONTENTS						                           *tango-contents*
+
+    01. Introduction ........................................ |tango-intro|
+    02. Configuration ...................................... |tango-config|
+    03. License ........................................... |tango-license|
+
+================================================================================
+INTRODUCTION                                                  *tango-intro*
+
+tango.vim is a colorscheme for Vim/NeoVim based off the tango theme
+from (http://tango.freedesktop.org/Tango_Desktop_Project) for Awesome WM.
+It also includes an Xresources file with colors for the 16-color terminal
+pallet; it shouldn't be too hard to adapt that to your favorite terminal
+emulator.
+
+The code is based off of onedark.vim (https://github.com/joshdick/onedark.vim).
+
+================================================================================
+CONFIGURATION                                                *tango-config*
+
+                                                 *g:tango_terminal_italics*
+g:tango_terminal_italics
+            Whether to use italics in syntax highlighting (usually for
+            comments).
+
+            Default value: 0
+
+                                                       *g:tango_termcolors*
+g:tango_termcolors
+            The color pallet to use. Supported values are 16 and 256.
+
+            Default value: 256
+
+                                               *g:tango_disable_background*
+g:tango_disable_background
+            Whether to disable the background (mainly to avoid covering up
+            transparency from the terminal emulator).
+
+            Default value: 0
+
+================================================================================
+LICENSE                                                     *tango-license*
+
+MIT License. Copyright © 2018 Zach Peltzer
+
+ vim:ft=help:tw=80:
